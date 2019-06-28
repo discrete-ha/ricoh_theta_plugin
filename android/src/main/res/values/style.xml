@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="option_buttons" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">@drawable/button_mode</item>
+    </style>
+
+    <style name="spinner" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

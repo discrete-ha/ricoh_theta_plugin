@@ -1,0 +1,56 @@
+/*
+ Localizable.strings
+ Pods
+ 
+ Created by John Ha on 6/20/19.
+ 
+ */
+
+"app_name" = "Ricoh Theta Camera Plugin";
+"off" = "OFF";
+"dr_comp" = "DR보정";
+"noise" = "노이즈 리덕션";
+"hdr" = "HDR합성";
+"brightness" = "밝기";
+"lib_app_name" = "ThetaLib";
+"theta_ip_address" = "192.168.1.1";
+"label_btn_shoot" = "shoot";
+"text_camera_notconnected" = "Not connected";
+"text_camera_standby" = "Standby";
+"text_camera_synthesizing" = "Image synthesizing";
+"menu_configuration" = "inertia";
+"menu_connection" = "connection";
+"rotate_inertia" = "rotation inertia";
+"inertia_0" = "none";
+"inertia_50" = "weak";
+"inertia_100" = "strong";
+"delete_dialog_message" = "Delete this file?";
+"dialog_positive_button" = "OK";
+"label_btn_image_size" = "Image Size";
+"image_size_2048x1024" = "2048 x 1024";
+"image_size_5376x2688" = "5376 x 2688";
+"dialog_confirm" = "확인";
+"dialog_settings" = "설정";
+"dialog_no_storage" = "사진이 저장되지 않았습니다. SD카드와 저장공간의 접근 권한을 확인해 주십시오.";
+"dialog_no_theta_wifi" = "카메라에 연결되어 있는지 WIFI설정을 확인해 주십시오.";
+"dialog_no_network_info" = "네트워크 정보를 받아올 수 없습니다.";
+"dialog_could_not_connect" = "카메라에 연결이 실패했습니다.";
+"dialog_negative_button" = "취소";
+"dialog_processing" = "처리중..";
+"dialog_connecting_camera" = "카메라에 연결중..";
+"navigation_close_button" = "촬영종료";
+"dialog_neutral_button" = "닫기";
+"dialog_why_wifi" = "카메라에 연결되어 있는지 확인을 위해 위치정보가 필요합니다. 어플리케이션의 허가설정을 확인해 주십시오.";
+"glphot_ok_button" = "결정";
+"glphot_cancel_button" = "취소";
+"timer" = "타이머";
+"1sec" = "1초";
+"2sec" = "2초";
+"3sec" = "3초";
+"4sec" = "4초";
+"5sec" = "5초";
+"6sec" = "6초";
+"7sec" = "7초";
+"8sec" = "8초";
+"9sec" = "9초";
+"10sec" = "10초";

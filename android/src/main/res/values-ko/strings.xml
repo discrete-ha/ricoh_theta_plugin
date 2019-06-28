@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ricoh Theta Camera Plugin</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+
+    <string name="off">OFF</string>
+    <string name="dr_comp">DR보정</string>
+    <string name="noise">노이즈 리덕션</string>
+    <string name="hdr">HDR합성</string>
+
+    <string name="brightness">밝기</string>
+    <string name="lib_app_name">ThetaLib</string>
+    <string name="theta_ip_address">192.168.1.1</string>
+    <string name="label_btn_shoot">shoot</string>
+    <string name="text_camera_notconnected">Not connected</string>
+    <string name="text_camera_standby">Standby</string>
+    <string name="text_camera_synthesizing">Image synthesizing</string>
+
+    <string name="menu_configuration">inertia</string>
+    <string name="menu_connection">connection</string>
+    <string name="rotate_inertia">rotation inertia</string>
+    <string name="inertia_0">none</string>
+    <string name="inertia_50">weak</string>
+    <string name="inertia_100">strong</string>
+    <string name="delete_dialog_message">Delete this file?</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="label_btn_image_size">Image Size</string>
+    <string name="image_size_2048x1024">2048 x 1024</string>
+    <string name="image_size_5376x2688">5376 x 2688</string>
+    <string name="dialog_confirm">확인</string>
+    <string name="dialog_settings">설</string>
+    <string name="dialog_no_storage">사진이 저장되지 않았습니다. SD카드와 저장공간의 접근 권한을 확인해 주십시오.</string>
+    <string name="dialog_no_theta_wifi">카메라에 연결되어 있는지 WIFI설정을 확인해 주십시오.</string>
+    <string name="dialog_no_network_info">네트워크 정보를 받아올 수 없습니다.</string>
+    <string name="dialog_could_not_connect">카메라에 연결이 실패했습니다.</string>
+    <string name="dialog_negative_button">취소</string>
+    <string name="dialog_processing">처리중..</string>
+    <string name="dialog_connecting_camera">카메라에 연결중..</string>
+    <string name="dialog_low_version">촬영기능은 안드로이드5.0이하에서는 사용할 수 없습니다.</string>
+    <string name="dialog_neutral_button">닫기</string>
+    <string name="dialog_why_wifi">카메라에 연결되어 있는지 확인을 위해 위치정보가 필요합니다. 어플리케이션의 허가설정을 확인해 주십시오.</string>
+    <string name="glphot_ok_button">결정</string>
+    <string name="glphot_cancel_button">취소</string>
+</resources>

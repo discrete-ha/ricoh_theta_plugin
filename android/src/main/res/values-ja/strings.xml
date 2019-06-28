@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ricoh Theta Camera Plugin</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+
+    <string name="off">OFF</string>
+    <string name="dr_comp">DR補正</string>
+    <string name="noise">ノイズ低減</string>
+    <string name="hdr">HDR合成</string>
+
+    <string name="brightness">明るさ</string>
+    <string name="lib_app_name">ThetaLib</string>
+    <string name="theta_ip_address">192.168.1.1</string>
+    <string name="label_btn_shoot">shoot</string>
+    <string name="text_camera_notconnected">Not connected</string>
+    <string name="text_camera_standby">Standby</string>
+    <string name="text_camera_synthesizing">Image synthesizing</string>
+
+    <string name="menu_configuration">inertia</string>
+    <string name="menu_connection">connection</string>
+    <string name="rotate_inertia">rotation inertia</string>
+    <string name="inertia_0">none</string>
+    <string name="inertia_50">weak</string>
+    <string name="inertia_100">strong</string>
+    <string name="delete_dialog_message">Delete this file?</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="label_btn_image_size">Image Size</string>
+    <string name="image_size_2048x1024">2048 x 1024</string>
+    <string name="image_size_5376x2688">5376 x 2688</string>
+    <string name="dialog_confirm">確認</string>
+    <string name="dialog_settings">設定</string>
+    <string name="dialog_no_storage">画像の保存はできませんでした。SDカードやストレージのアクセス許可をご確認ください。</string>
+    <string name="dialog_no_theta_wifi">カメラに接続しているか無線通信の設定をご確認ください。</string>
+    <string name="dialog_no_network_info">無線通信の情報の取得に失敗しました。</string>
+    <string name="dialog_could_not_connect">カメラに接続できませんでした。</string>
+    <string name="dialog_negative_button">キャンセル</string>
+    <string name="dialog_processing">処理中</string>
+    <string name="dialog_connecting_camera">カメラに接続中</string>
+    <string name="dialog_low_version">撮影機能はアンドロイド5.0以下は利用出来ません。</string>
+    <string name="dialog_neutral_button">閉じる</string>
+    <string name="dialog_why_wifi">カメラに接続しているかどうか確認するために位置情報へアクセスの許可が必要です。アプリの許可の設定を確認してください。</string>
+    <string name="glphot_ok_button">決定</string>
+    <string name="glphot_cancel_button">キャンセル</string>
+</resources>

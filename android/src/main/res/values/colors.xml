@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="spacely_red_color">#ff3366</color>-->
+    <!--<color name="spacely_red_press_color">#ef2356</color>-->
+    <!--<color name="spacely_red_font_color">#ffffff</color>-->
+
+    <color name="button_basic_color">#ff3366</color>
+    <color name="button_basic_press_color">#ef2356</color>
+    <color name="button_basic_font_color">#ffffff</color>
+</resources>

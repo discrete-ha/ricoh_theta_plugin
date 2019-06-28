@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <com.airflare.ricoh_theta_plugin.GLPhotoView
+            android:id="@+id/photo_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1px" />
+
+        <ProgressBar
+            android:id="@+id/loading_photo_progress_bar"
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="100"
+            android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/button_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@drawable/stylee_button"
+            android:textColor="@color/button_basic_font_color"
+            android:text="@string/glphot_ok_button"
+            android:onClick="onClickOk"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@drawable/stylee_button"
+            android:textColor="@color/button_basic_font_color"
+            android:text="@string/glphot_cancel_button"
+            android:onClick="onClickCancel"
+            />
+
+    </LinearLayout>
+
+    <com.airflare.ricoh_theta_plugin.LogView
+        android:id="@+id/photo_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+</FrameLayout>

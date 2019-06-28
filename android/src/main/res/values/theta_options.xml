@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="options_off">off</string>
+    <string name="options_dr_comp">DR Comp</string>
+    <string name="options_noise_reduction">Noise Reduction</string>
+    <string name="options_hdr">hdr</string>
+</resources>

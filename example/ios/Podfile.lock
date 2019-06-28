@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - ricoh_theta_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - ricoh_theta_plugin (from `.symlinks/plugins/ricoh_theta_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  ricoh_theta_plugin:
+    :path: ".symlinks/plugins/ricoh_theta_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  ricoh_theta_plugin: 01c522b9cb0bddb9df73dbf0aa666da8efb93ebb
+
+PODFILE CHECKSUM: b7d0755641915265774624f3b3be49c5c073d379
+
+COCOAPODS: 1.5.3

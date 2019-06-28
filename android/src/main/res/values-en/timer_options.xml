@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timer_options">
+        <item>Timer</item>
+        <item>1sec</item>
+        <item>2sec</item>
+        <item>3sec</item>
+        <item>4sec</item>
+        <item>5sec</item>
+        <item>6sec</item>
+        <item>7sec</item>
+        <item>8sec</item>
+        <item>9sec</item>
+        <item>10sec</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by John Ha on 6/20/19.
+  
+*/
+"app_name" = "Ricoh Theta Camera Plugin";
+"off" = "OFF";
+"dr_comp" = "DR compensation";
+"noise" = "Noise reduction";
+"hdr" = "HDR Rendering";
+"brightness" = "Brightness";
+"lib_app_name" = "ThetaLib";
+"theta_ip_address" = "192.168.1.1";
+"label_btn_shoot" = "Shoot";
+"text_camera_notconnected" = "Not connected";
+"text_camera_standby" = "Standby";
+"text_camera_synthesizing" = "Image synthesizing";
+"menu_configuration" = "inertia";
+"menu_connection" = "connection";
+"rotate_inertia" = "rotation inertia";
+"inertia_0" = "none";
+"inertia_50" = "weak";
+"inertia_100" = "strong";
+"delete_dialog_message" = "Delete this file?";
+"dialog_positive_button" = "OK";
+"label_btn_image_size" = "Image Size";
+"image_size_2048x1024" = "2048 x 1024";
+"image_size_5376x2688" = "5376 x 2688";
+"dialog_confirm" = "Confirm";
+"dialog_settings" = "Setting";
+"dialog_no_storage" = "Please check the access permission for the SD card or storage.";
+"dialog_no_theta_wifi" = "Please check that the wifi is connected to the camera.";
+"dialog_no_network_info" = "Failed to get network information.";
+"dialog_could_not_connect" = "Failed to connect to the camera.";
+"dialog_negative_button" = "Cancel";
+"dialog_processing" = "Processing..";
+"dialog_connecting_camera" = "Connecting..";
+"navigation_close_button" = "Done";
+"dialog_neutral_button" = "Close";
+"dialog_why_wifi" = "To confirm the camera is connected, allow location service access. Check the application settings. ";
+"glphot_ok_button" = "OK";
+"glphot_cancel_button" = "Cancel";
+"timer" = "Timer";
+"1sec" = "1sec";
+"2sec" = "2sec";
+"3sec" = "3sec";
+"4sec" = "4sec";
+"5sec" = "5sec";
+"6sec" = "6sec";
+"7sec" = "7sec";
+"8sec" = "8sec";
+"9sec" = "9sec";
+"10sec" = "10sec";

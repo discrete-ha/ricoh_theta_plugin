@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by John Ha on 6/20/19.
+  
+*/
+
+"app_name" = "Ricoh Theta Camera Plugin";
+"off" = "OFF";
+"dr_comp" = "DR補正";
+"noise" = "ノイズ低減";
+"hdr" = "HDR合成";
+"brightness" = "明るさ";
+"lib_app_name" = "ThetaLib";
+"theta_ip_address" = "192.168.1.1";
+"label_btn_shoot" = "shoot";
+"text_camera_notconnected" = "Not connected";
+"text_camera_standby" = "Standby";
+"text_camera_synthesizing" = "Image synthesizing";
+"menu_configuration" = "inertia";
+"menu_connection" = "connection";
+"rotate_inertia" = "rotation inertia";
+"inertia_0" = "none";
+"inertia_50" = "weak";
+"inertia_100" = "strong";
+"delete_dialog_message" = "Delete this file?";
+"dialog_positive_button" = "OK";
+"label_btn_image_size" = "Image Size";
+"image_size_2048x1024" = "2048 x 1024";
+"image_size_5376x2688" = "5376 x 2688";
+"dialog_confirm" = "確認";
+"dialog_settings" = "設定";
+"dialog_no_storage" = "画像の保存はできませんでした。SDカードやストレージのアクセス許可をご確認ください。";
+"dialog_no_theta_wifi" = "カメラに接続しているか無線通信の設定をご確認ください。";
+"dialog_no_network_info" = "無線通信の情報の取得に失敗しました。";
+"dialog_could_not_connect" = "カメラに接続できませんでした。";
+"dialog_negative_button" = "キャンセル";
+"dialog_processing" = "処理中";
+"dialog_connecting_camera" = "カメラに接続中";
+"navigation_close_button" = "撮影終了";
+"dialog_neutral_button" = "閉じる";
+"dialog_why_wifi" = "カメラに接続しているかどうか確認するために位置情報へアクセスの許可が必要です。アプリの許可の設定を確認してください。";
+"glphot_ok_button" = "決定";
+"glphot_cancel_button" = "キャンセル";
+"timer" = "タイマー";
+"1sec" = "1秒";
+"2sec" = "2秒";
+"3sec" = "3秒";
+"4sec" = "4秒";
+"5sec" = "5秒";
+"6sec" = "6秒";
+"7sec" = "7秒";
+"8sec" = "8秒";
+"9sec" = "9秒";
+"10sec" = "10秒";
