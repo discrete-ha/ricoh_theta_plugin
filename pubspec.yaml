@@ -1,8 +1,8 @@
 name: ricoh_theta_plugin
-description: richo theta plugin 
-version: 0.0.1
-author:
-homepage:
+description: plugin for Ricoh Theta camera.
+version: 0.0.4
+authors: ["John Ha <discreteb@gmail.com>", "Ivan Luque<ivanonchi@gmail.com>"]
+homepage: http://air-flare.com
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

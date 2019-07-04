@@ -32,6 +32,7 @@ import Foundation
     private var imageInfo: HttpImageInfo?
     private var observer: NSObjectProtocol?
     private static var isPreviewShowing = false
+    private var isLoadingShowing = false
     
     let options: [String] = Localizer.getStrings(keys: ["off", "hdr", "noise", "dr_comp"])
     let optionsValues: [String] = ["off", "hdr", "Noise Reduction", "DR Comp"]
@@ -57,7 +58,7 @@ import Foundation
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        observer = NotificationCenter.default.addObserver(forName: UIApplication.willEnterForegroundNotification,
+        observer = NotificationCenter.default.addObserver(forName: Notification.Name.UIApplicationWillEnterForeground,
                                                           object: nil,
                                                           queue: OperationQueue.main)
         { [unowned self](_) in
@@ -80,12 +81,13 @@ import Foundation
     }
     
     func showLoading() {
+        self.isLoadingShowing = true
         loadingBoxView = UIView(frame: CGRect(x:((self.view.bounds.width-80)/2), y:300 , width: 80, height: 80))
         loadingBoxView.backgroundColor = UIColor.black
         loadingBoxView.alpha = 0.9
         loadingBoxView.layer.cornerRadius = 10
         // Spin config:
-        let activityView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.whiteLarge)
+        let activityView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorView.Style.whiteLarge)
         activityView.frame = CGRect(x: 20, y: 12, width: 40, height: 40)
         activityView.startAnimating()
         // Text config:
@@ -101,7 +103,10 @@ import Foundation
     }
     
     func dismissLoading() {
-        loadingBoxView.removeFromSuperview()
+        if self.isLoadingShowing == true {
+            self.isLoadingShowing = false
+            loadingBoxView.removeFromSuperview()
+        }
     }
     
     func setUpTimerView(){
@@ -203,10 +208,10 @@ import Foundation
             thetaApi.connectToCamera { [unowned self] connected in
                 if connected {
                     self.shutterButton.isEnabled = true
-                    self.thetaApi.startLiveView { [unowned self] image in
+                    self.thetaApi.startLiveView { [weak self] image in
                         if LiveViewController.isPreviewShowing == true {
-                            self.dismissLoading()
-                            self.liveView.image = image
+                            self?.dismissLoading()
+                            self?.liveView.image = image
                         }
                     }
                     self.optionsButtonCreation()
@@ -226,9 +231,9 @@ import Foundation
             [
                 (Localizer.getString(key:"dialog_settings"), {
                     if #available(iOS 10.0, *) {
-                        UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
+                        UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!)
                     } else {
-                        UIApplication.shared.openURL(URL(string: UIApplication.openSettingsURLString)!)
+                        UIApplication.shared.openURL(URL(string: UIApplicationOpenSettingsURLString)!)
                     }
                 }),
                 (Localizer.getString(key:"dialog_neutral_button"), {

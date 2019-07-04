@@ -4,9 +4,9 @@
 Pod::Spec.new do |s|
   s.name             = 'ricoh_theta_plugin'
   s.version          = '0.0.1'
-  s.summary          = 'richo theta plugin '
+  s.summary          = 'ricoh theta plugin '
   s.description      = <<-DESC
-richo theta plugin 
+plugin for Ricoh Theta camera
                        DESC
   s.homepage         = 'http://air-flare.com'
   s.license          = { :file => '../LICENSE' }

@@ -9,7 +9,34 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63be21b-d7cd-4604-8858-69c01d58c6d2" name="Default Changelist" comment="" />
+    <list default="true" id="e63be21b-d7cd-4604-8858-69c01d58c6d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/ios/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Localizable.strings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/ios/Classes/LiveViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/ios/Classes/LiveViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/ios/Classes/ProgressDialog.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/ios/Classes/ProgressDialog.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/ios/ricoh_theta_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/ios/ricoh_theta_plugin.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/ricoh_theta_plugin/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/LiveViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/LiveViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/ProgressDialog.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/ProgressDialog.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/ricoh_theta_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/ricoh_theta_plugin.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -25,37 +52,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ricoh_theta_plugin.dart">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="110" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="110" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/res/values/strings.xml">
+        <entry file="file://$PROJECT_DIR$/ios/CameraStoryboard.storyboard">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="46" />
+            <state relative-caret-position="202">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/res/values-ja/strings.xml">
+        <entry file="file://$PROJECT_DIR$/ios/ricoh_theta_plugin.podspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/android/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android/src/main/res/values-en/strings.xml">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/ios/Pods/Local Podspecs/ricoh_theta_plugin.podspec.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -72,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="630">
               <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
@@ -109,14 +163,20 @@
       <find>dependencies:</find>
       <find>startCamera</find>
       <find>spacely</find>
+      <find>plugin for Ricoh Theta camera.</find>
+      <find>richo</find>
+      <find>ric</find>
+      <find>17</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/ricoh_theta_plugin.dart" />
         <option value="$PROJECT_DIR$/android/src/main/res/values/style.xml" />
         <option value="$PROJECT_DIR$/android/src/main/res/values/colors.xml" />
@@ -125,15 +185,22 @@
         <option value="$PROJECT_DIR$/android/src/main/res/values-ko/strings.xml" />
         <option value="$PROJECT_DIR$/android/src/main/res/values-ja/strings.xml" />
         <option value="$PROJECT_DIR$/android/src/main/res/values-en/strings.xml" />
+        <option value="$PROJECT_DIR$/ios/ricoh_theta_plugin.podspec" />
+        <option value="$PROJECT_DIR$/example/ios/Pods/Local Podspecs/ricoh_theta_plugin.podspec.json" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/example/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="54" />
-    <option name="width" value="1311" />
+    <option name="x" value="72" />
+    <option name="y" value="122" />
+    <option name="width" value="1294" />
     <option name="height" value="770" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -175,6 +242,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,41 +265,7 @@
             <path>
               <item name="ricoh_theta_plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="ricoh_theta_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ricoh_theta_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ricoh_theta_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ricoh_theta_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ricoh_theta_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values-en" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ricoh_theta_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ricoh_theta_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values-ja" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ricoh_theta_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ricoh_theta_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values-ko" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ricoh_theta_plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -250,8 +285,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,10 +322,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="54" width="1311" height="770" extended-state="0" />
+    <frame x="72" y="122" width="1294" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967033" visible="true" weight="0.24980299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967033" visible="true" weight="0.2531949" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -302,17 +335,17 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32890856" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49802995" weight="0.32890856" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.4968051" weight="0.32890856" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.33038348" />
       <window_info anchor="bottom" id="Debug" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50197005" side_tool="true" visible="true" weight="0.32890856" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50319487" side_tool="true" visible="true" weight="0.32890856" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49960598" weight="0.32890856" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49920127" visible="true" weight="0.32890856" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -355,13 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="19" column="76" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -436,6 +462,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/res/values-en/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/ricoh_theta_plugin.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Pods/Local Podspecs/ricoh_theta_plugin.podspec.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/values-ko/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -445,7 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="630">
           <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
@@ -456,10 +524,17 @@
     <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/values-en/strings.xml">
+    <entry file="file://$PROJECT_DIR$/ios/CameraStoryboard.storyboard">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        <state relative-caret-position="202">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
