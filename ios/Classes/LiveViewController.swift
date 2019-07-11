@@ -58,7 +58,7 @@ import Foundation
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        observer = NotificationCenter.default.addObserver(forName: Notification.Name.UIApplicationWillEnterForeground,
+        observer = NotificationCenter.default.addObserver(forName: UIApplication.willEnterForegroundNotification,
                                                           object: nil,
                                                           queue: OperationQueue.main)
         { [unowned self](_) in
@@ -87,7 +87,7 @@ import Foundation
         loadingBoxView.alpha = 0.9
         loadingBoxView.layer.cornerRadius = 10
         // Spin config:
-        let activityView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorView.Style.whiteLarge)
+        let activityView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.whiteLarge)
         activityView.frame = CGRect(x: 20, y: 12, width: 40, height: 40)
         activityView.startAnimating()
         // Text config:
@@ -231,9 +231,9 @@ import Foundation
             [
                 (Localizer.getString(key:"dialog_settings"), {
                     if #available(iOS 10.0, *) {
-                        UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!)
+                        UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
                     } else {
-                        UIApplication.shared.openURL(URL(string: UIApplicationOpenSettingsURLString)!)
+                        UIApplication.shared.openURL(URL(string: UIApplication.openSettingsURLString)!)
                     }
                 }),
                 (Localizer.getString(key:"dialog_neutral_button"), {
